@@ -7,22 +7,22 @@ class Quaere < Formula
   on_macos do
     on_arm do
       url "https://github.com/haru0416-dev/quaere/releases/download/v#{version}/quaere-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "bf9bfd3e4aabd6cedc96543372522acb39111084e059780a5173a623d55c2ba3"
+      sha256 "6731e66b6b71de07f2d401fd2006d91fa1fc0131076217e2f6cc672091839df1"
     end
     on_intel do
       url "https://github.com/haru0416-dev/quaere/releases/download/v#{version}/quaere-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "d85294bcf6dc1489e2a4c22e9ba242ef23120c8bce5cd2cef7f60192b9b4f0c1"
+      sha256 "2de8837fd5ed314e492359ced523433b6852ee4af154144d45569329d802b244"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/haru0416-dev/quaere/releases/download/v#{version}/quaere-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2524fa84630a6692e8ef52914c38574b764c496a0c435bfe087c26abb0b54503"
+      sha256 "71e78fae8577cef3f0de555eab9543496c3f0cfbe24097ee38b10aabe8516a4c"
     end
     on_intel do
       url "https://github.com/haru0416-dev/quaere/releases/download/v#{version}/quaere-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d7399a8a84d3c639069829c45292eb2f9f945fd8c97e0edf15b9298ab33bfc04"
+      sha256 "3730ce524447798ed2171bc74be22c195d0ae71e3beb2ab90dbe20fe9ea7d840"
     end
   end
 
