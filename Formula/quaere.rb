@@ -1,28 +1,28 @@
 class Quaere < Formula
   desc "Process-correction skills CLI for coding agents (Claude Code, Codex, ...)"
   homepage "https://quaere.dev/"
-  version "0.3.1"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/haru0416-dev/quaere/releases/download/v#{version}/quaere-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "f825603c0f4318f53f29525674b3b248e653108eaeae2ae6ce99f969306dbbfe"
+      sha256 "fc1ce07e276c266593bf9fe88f75a1be1ced9864d7795e7a6a391a37a358dc9c"
     end
     on_intel do
       url "https://github.com/haru0416-dev/quaere/releases/download/v#{version}/quaere-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "a0822123dc295eded6b1b2e070a892af11af79aaaca709b038b81b97dfc4aeb4"
+      sha256 "0fc757bed14b5cd267eadedacbe21fb62eee864f6e538a7d5295ffb00acb8b13"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/haru0416-dev/quaere/releases/download/v#{version}/quaere-v#{version}-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "5e5b9674292e5f042759093d7d065f03cab25637f7f206b24f5411f8f3977683"
+      sha256 "f0e2ef32784cd378739ff4dae1bc6f6dcec2df284e73165e02c19408a963d8a7"
     end
     on_intel do
       url "https://github.com/haru0416-dev/quaere/releases/download/v#{version}/quaere-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "ec9a39f951b04515309aa45197c19f3e52cb1776cb659b0389be7ddd4eb2d022"
+      sha256 "b8c78ace7401edcfb09a1dfa90e70210d88e85da8334a4cf3d33a8a80e7cef83"
     end
   end
 
